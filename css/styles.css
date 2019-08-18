@@ -21,36 +21,44 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
-hr{
-border: dotted #EAF6F6 6px;
-border-bottom: none;
-width: 4%;
-margin: 100px auto;
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
-p{
+
+p {
   line-height: 2;
 }
-a{
+
+a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   color: #EAF6F6;
 }
+
 /*----Containers-------------- */
-.intro{
+.intro {
   width: 30%;
   margin: auto;
 }
+
 .description {
   font-weight: normal;
 }
-.contact-message{
+
+.contact-message {
   width: 40%;
   margin: 40px auto 60px;
 }
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
@@ -99,29 +107,29 @@ a:hover{
 .prof {
   padding-top: 100px;
   width: 15%;
-
 }
-.copywright{
+
+.copywright {
   color: #EAF6F6;
   font-size: 0.75rem;
 }
 
 .chilli-p {
-  margin-right: 30px;
-  width: 30%;
+  margin-right: 10px;
+  width: 40%;
   float: left;
 }
 
 .comp-p {
   margin-left: 30px;
-  width: 25%;
-float: right;
+  width: 40%;
+  float: right;
 }
 
 .blog-p {
   margin-left: 30px;
   width: 25%;
-float: right;
+  float: right;
 }
 
 .now {
@@ -129,10 +137,9 @@ float: right;
 }
 
 .audiobooks-p {
-  width: 20%;
+  width: 10%;
   margin: 0px auto 0px auto;
 }
-
 
 .btn {
   background: #11cdd4;
@@ -161,10 +168,50 @@ float: right;
   text-decoration: none;
 }
 
-
 /*Books  images styling */
-
 .bookPic {
   margin-left: 30px;
   width: 10%;
+}
+
+/*Blog styling */
+.blogs {
+  text-align: center;
+}
+
+.blogs_body {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.blog_hr {
+  margin: 30px auto;
+}
+
+.blog-page {
+  width: 15%;
+}
+
+.design-page {
+  width: 15%;
+}
+
+.top-container-blog {
+
+  position: relative;
+  padding-top: 20px;
+}
+
+.blog_header {
+  margin: 10px auto auto 0px;
+}
+
+.exp-heading{
+  margin-left: 30px;
+  text-align: left;
+}
+
+.c_share{
+  margin-left: 10px;
+  left: 0;
 }
